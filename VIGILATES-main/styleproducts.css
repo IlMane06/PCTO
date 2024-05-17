@@ -1,0 +1,233 @@
+div, body{
+
+    padding: 0%;
+    margin: 0%;
+  
+}
+
+a{
+
+    text-decoration: none;
+  
+}
+
+h1{
+
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 170%;
+    font-weight: bold;
+
+    padding-left: 56%;
+
+    color: #002f52d7;
+    
+}
+
+h2{
+
+    font-family:'open sans', Helvetica, Arial, sans-serif;
+    font-size: 110%;
+    font-weight: normal;
+
+    padding-left: 60%;
+    padding-right: 10%;
+
+    text-align: left;
+
+    color: #000000e0;
+  
+}
+
+h4{
+
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 170%;
+    font-weight: bold;
+
+    padding-left: 10%;
+
+    color: #002f52d7;
+    
+}
+
+h5{
+
+    font-size: 130%;
+
+    color: #002f52d2;
+    
+}
+
+h6{
+
+    font-family:'open sans', Helvetica, Arial, sans-serif;
+    font-size: 110%;
+    font-weight: bolder;
+
+    color: #002f52c9;
+    
+}
+
+p{
+
+    font-family:'open sans', Helvetica, Arial, sans-serif;
+    font-weight: justify;
+    font-size: 90%;
+
+    padding-left: 22%;
+    margin-top: -20px;
+
+    color: #00000077;
+  
+}
+
+header{
+
+    position: fixed;
+      
+    padding-top: 0.5%;
+  
+}
+
+#logo {
+    
+    position: fixed;
+  
+    width: 30%;
+    height: 20%;
+
+
+    background-image: url(logoorizontal.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+  
+    transition: 1s;
+    
+}
+
+#logo:hover{
+
+    cursor:url(cursorescudo.png), auto;
+
+}
+  
+#home{
+  
+    position: fixed;
+  
+    width: 4%;
+    height: 20%;
+  
+    margin-left: 90%;
+  
+  
+    background-image: url(home.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+  
+    opacity: 1;
+  
+    transition: 1s;
+  
+}
+
+#ita {
+
+    width: 2%;
+
+    margin-top: 1%;
+    margin-left: 45.8%;
+    margin-right: 1%;
+  
+}
+
+#ing {
+
+    width: 2%;
+
+    margin-top: 1%;
+    margin-right: 1%;
+
+}
+
+#spa {
+
+    width: 2%;
+
+    margin-top: 1%;
+    margin-right: 1%;
+
+}
+
+#footer{
+
+     
+    background-color: #005a7e61;
+
+    position: absolute;
+    align-items: center;
+
+    height: auto;
+    width: 100%;
+
+    padding: 3%;
+    padding-left: 5%;
+
+    margin-top: 0%;
+  
+}
+
+#space{
+
+    padding-top: 13%;
+
+}
+
+#me:hover + #text{
+
+    display: block;
+
+}
+
+#text{
+
+    display: none;
+
+}
+
+#reset{
+
+    font-family:'open sans', Helvetica, Arial, sans-serif;
+    font-size: 100%;
+
+    text-align: left;
+
+    color: #000000c9;
+
+    padding-left: 15%;
+  
+}
+
+.img{
+
+    position: absolute;
+    padding-left: 10%;
+
+}
+
+#classic{
+
+    font-family:'open sans', Helvetica, Arial, sans-serif;
+    font-size: 100%;
+    font-weight: 400;
+
+    padding-left: 15%;
+    padding-right: 25%;
+
+    text-align: left;
+
+    color: #000000;
+
+}
