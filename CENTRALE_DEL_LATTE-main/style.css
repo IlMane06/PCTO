@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: #001D47;
+    position: absolute;
+    padding: 0 10%;
+    margin: 0 auto;
+    width: 80%;
+    height: auto;
+}
+
+#logofooter {
+    width: 30%;
+    height: auto;
+}
+
+.icons {
+    margin: 1% 0 0 80%;
+    padding: 0;
+    text-align: right;
+}
+
+.social {
+    width: 20%;
+    margin: 1%;
+    height: auto;
+}
+
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('fonts/FiraSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "FiraSansRegular";
+    src: url('path/to/fonts/FiraSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+#follow {
+    position: relative;
+    width: 30%;
+    height: auto;
+    font-family: 'Fira Sans', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 500%;
+    margin: -8% 0 0 78%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit; 
+}
+
+#listafooter {
+
+    list-style-type: none;
+    
+    
+    position: relative;
+    width: 30%;
+    height: auto;
+    font-family: 'FiraSansRegular', 'Fira Sans', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: lighter;
+    color: #ffffff;
+    font-size: 200%;
+    margin: 0 0 0 0;
+    
+}
+
+#elmfooter {
+    margin: 3% 0;
+}
+
+.finaltext {
+    text-align: center;
+    color: #ffffff;
+    font-size: 150%;
+    font-weight: lighter;
+    margin: 0 0 0 0;
+}
+
+.finaldiv {
+    margin: 5% 0 3% 0;
+}
