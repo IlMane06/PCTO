@@ -36,12 +36,6 @@ footer {
     font-style: normal;
 }
 
-@font-face {
-    font-family: "FiraSansRegular";
-    src: url('path/to/fonts/FiraSans-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
 #follow {
     position: relative;
     width: 30%;
