@@ -121,9 +121,7 @@ a {
 }
 
 #space {
-    border: 1px solid red;
-
-    margin: 10%;
+    margin: 20%;
 }
 
 #txtimg1choose {
@@ -131,9 +129,10 @@ a {
     height: auto;
     font-family: 'Fira Sans', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
-    color: #001D47;
+    color: #2A86C9;
     font-size: 300%;
-    margin-left: 30%;
+    margin-left: 29%;
+    padding-top: -10%;
 }
 
 #img1 {
@@ -141,7 +140,179 @@ a {
     height: auto;
     width: 10%;
     font-size: 300%;
-    margin-left: 31,5%;
+    margin-left: 29.5%;
+}
+
+#descimg1 {
+    position: relative;
+    height: auto;
+    color: #848484;
+    font-family: 'Fira Sans', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    width: 25%;
+    font-size: 170%;
+    margin-left: 22%;
+    margin-top: -2%;
+}   
+
+
+#txtimg2choose {
+    position: relative;
+    height: auto;
+    font-family: 'Fira Sans', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: #2A86C9;
+    font-size: 300%;
+    margin-left: 61%;
+    margin-top: -7.5%;
+}
+
+#img2 {
+    position: relative;
+    height: auto;
+    width: 16%;
+    font-size: 300%;
+    margin-left: 60.5%;
+    margin-top: -23.8%;
+    padding-top: 1%;
+}
+
+#descimg2 {
+    position: relative;
+    height: auto;
+    color: #848484;
+    text-align: center;
+    font-family: 'Fira Sans', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 25%;
+    font-size: 170%;
+    margin-left: 56%;
+    margin-top: -2%;
+}   
+
+#txtimg3choose {
+    position: relative;
+    height: auto;
+    font-family: 'Fira Sans', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: #2A86C9;
+    font-size: 300%;
+    margin-left: 40%;
+    margin-top: 0.5;
+}
+
+#img3 {
+    position: relative;
+    height: auto;
+    width: 28%;
+    font-size: 300%;
+    margin-left: 35.5%;
+    margin-top: 5%;
+}
+
+#descimg3 {
+    position: relative;
+    height: auto;
+    color: #848484;
+    text-align: center;
+    width: 25%;
+    font-family: 'Fira Sans', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 170%;
+    margin-left: 36.6%;
+    margin-top: -2%;
+}   
+
+#imgproduzione {
+    width: 100%;
+    height: auto;
+
+    margin-bottom: -7%;
+
+}
+
+#titlesecond {
+    position: relative;
+    height: auto;
+    font-family: 'Fira Sans', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: #001D47;
+    font-size: 300%;
+    text-align: center;
+}
+
+#box {
+    transition: 1s;
+    position: relative;
+    height: auto;
+    margin-left: 20%;
+    width: 60%;
+    height: 80%;
+    background-image: url(magazzino.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#box:hover {
+    transition: 1s;
+    position: relative;
+    height: 80%;
+    width: 30%;
+    overflow: hidden;
+}
+
+#box:hover + .descriptionmagazzino {
+    opacity: 1;
+}
+
+.descriptionmagazzino {
+    transition: 1s;
+    position: relative;
+    opacity: 0;
+    height: auto;
+    font-family: 'Fira Sans', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #5f5f5f;
+    font-size: 150%;
+    margin-left: 55%;
+    margin-right: 25%;
+    margin-top: -35%;
+    text-align: left;
 }
 
 
+#box2 {
+    transition: 1s;
+    position: relative;
+    height: auto;
+    margin-left: 20%;
+    width: 60%;
+    height: 80%;
+    background-image: url(bottiglie.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#box2:hover {
+    transition: 1s;
+    position: relative;
+    height: 80%;
+    width: 30%;
+    margin-left: 50%;
+    overflow: hidden;
+}
+
+#box2:hover + .descriptionnastro {
+    opacity: 1;
+}
+
+.descriptionnastro {
+    transition: 1s;
+    position: relative;
+    opacity: 0;
+    height: auto;
+    font-family: 'Fira Sans', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #5f5f5f;
+    font-size: 150%;
+    margin-left: 25%;
+    margin-right: 55%;
+    margin-top: -37%;
+    text-align: right;
+}
